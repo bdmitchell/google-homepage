@@ -1,0 +1,114 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navigation{
+    font-size: .85em;
+    display: inline;
+}
+    
+.Nav-Left, .Nav-Right{
+    display: inline-block;
+    padding: 12px 18px;
+}
+
+.Nav-Left {
+    float: left;
+}
+
+.Nav-Right {
+    float: right;
+    vertical-align: middle;
+}
+
+.Nav-Left a{
+    vertical-align: middle;
+    position: relative;
+    padding: 0px 7px;
+    color: rgba(0,0,0,0.87);
+}
+
+.Nav-Right a{
+    vertical-align: middle;
+    position: relative;
+    padding: 0px 7px; 
+    color: rgba(0,0,0,0.87);
+}
+
+
+a:visited, a:link, a:active{
+    text-decoration: none!important;
+}
+
+a:hover{
+    text-decoration: underline!important;
+}
+
+.Nav-Right img{
+    vertical-align: middle;
+}
+
+.Nav-Right button{
+    background-color: rgb(66, 133, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    border: 0px;
+    height: 28px;
+    width: 60px;
+    margin-left: 10px;
+
+}
+
+.main{
+    text-align: center;
+}
+
+.logo{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 200px;
+}
+
+.search{
+    width: 580px;
+    height: 40px;
+    box-shadow: 1px 1px 1px 1px rgb(200, 200, 200, 0.85);
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+
+.search input{
+    border: none;
+}
+
+.search img{
+    height: 40px;
+    vertical-align: middle;
+    position: absolute;
+    right: 3px;
+
+}
+
+.buttons{
+    margin: 20px;
+   }
+
+   .buttons button{
+    color: rgb(117, 117, 117);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    width: 150px;
+    padding: 0px 16px;
+    border-width: 1px;
+    border-color: rgb(242,242,242);
+    border-style: solid;
+    background-color: rgb(242,242,242);
+    margin: 4px;
+  }
